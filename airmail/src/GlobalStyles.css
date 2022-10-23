@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient( #374650, #2B363D);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background: linear-gradient( 90deg,#0099FF,#00CCFF );
+    border: none;
+    color: white;
+    box-shadow: 0px 0px 20px 5px rgba(4, 9, 13, 0.25);
+    font-size: 30px;
+    height:60px; 
+    border-radius: 30px;
+    cursor:pointer;
+    margin: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+img {
+    border-radius: 20px;
+}
+
+
+
+input {
+    background: #2C3236;
+    box-shadow: 0px 0px 20px 5px rgba(4, 9, 13, 0.25);
+    border-radius: 55px;
+    height:60px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
+    color: white;
+    margin: 10px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+textarea {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    background: #2C3236;
+    box-shadow: 0px 0px 20px 5px rgba(4, 9, 13, 0.25);
+    border-radius: 25px;
+    
+    color: white;
+    margin: 10px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.newPost{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+}
+.familyCode{
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    height:50px;
+    font-size: 30px;
+}
+
+.JoinButton{
+    font-family: 'Poppins', sans-serif;
+    width: 120px;
+    height:60px;
+    cursor:pointer;
+    
+    font-size: 30px;
+    margin-top: 10px;
+   
+    
+}
+
+
+.createFam{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* it center the item vertically */
+    justify-content: center;
+    /* it center the item horizontally */
+    text-decoration: none;
+
+
+   
+}
+
+h2{
+    color: #00CCFF;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    color:white;
+    cursor: pointer;
+}
+.dateStuff{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.titleInput{
+    width:500px;
+}
+.timeInput{
+    width:200px;
+}
+.feedDeets{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #001B22;
+    flex:1;
+    flex-direction: column;
+    width: 23%;
+    padding: 30px;
+    height: 100%;
+}
+.content{
+    flex:2;
+    margin-left:25%;
+}
+.contain{
+    display:flex;
+}
+
+nav{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    z-index: 99 !important;
+
+}
